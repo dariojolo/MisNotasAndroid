@@ -64,16 +64,16 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_popup_enter.xml"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -176,16 +176,16 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable-xxhdpi-v4/design_ic_visibility.png"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/animator/design_fab_hide_motion_spec.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable-hdpi-v4/design_ic_visibility_off.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/animator/design_fab_hide_motion_spec.xml"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable-xxhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_dashboard_black_24dp.png.flat",
@@ -252,12 +252,12 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_icon_null_animation.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
@@ -276,12 +276,12 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_abc_cascading_menu_item_layout.xml.flat",
@@ -376,12 +376,12 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
-        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
-    },
-    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_home_black_24dp.png.flat",
@@ -392,24 +392,24 @@
         "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-ldpi/ic_facebook.png"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",
-        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
@@ -466,6 +466,10 @@
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_fragment_favoritas.xml.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/src/main/res/layout/fragment_favoritas.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_unchecked_mtrl.xml.flat",
@@ -574,10 +578,6 @@
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_fragment_dashboard.xml.flat",
-        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/src/main/res/layout/fragment_dashboard.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
@@ -1118,6 +1118,10 @@
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/layout_row_recycler_fav.xml.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/src/main/res/layout/row_recycler_fav.xml"
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",

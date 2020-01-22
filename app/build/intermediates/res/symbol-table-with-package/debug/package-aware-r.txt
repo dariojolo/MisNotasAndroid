@@ -1179,6 +1179,7 @@ id customPanel
 id decor_content_parent
 id default_activity_button
 id descriptionDetail
+id descriptionFav
 id descriptionIv
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1215,6 +1216,7 @@ id ifRoom
 id image
 id imageIv
 id imageView
+id imagefav
 id info
 id invisible
 id italic
@@ -1261,6 +1263,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id recyclerView
+id recyclerViewFavs
 id right
 id right_icon
 id right_side
@@ -1320,7 +1323,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id text_dashboard
 id text_input_password_toggle
 id text_notifications
 id textinput_counter
@@ -1330,6 +1332,7 @@ id time
 id title
 id titleDetail
 id titleDividerNoCustom
+id titleFav
 id titleIv
 id title_template
 id toolbar
@@ -1425,7 +1428,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_dashboard
+layout fragment_favoritas
 layout fragment_home
 layout fragment_notifications
 layout mtrl_layout_snackbar
@@ -1436,6 +1439,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_recycler_fav
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

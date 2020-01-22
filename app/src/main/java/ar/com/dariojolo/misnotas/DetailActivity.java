@@ -1,5 +1,8 @@
 package ar.com.dariojolo.misnotas;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -32,8 +35,22 @@ public class DetailActivity extends AppCompatActivity {
         mDescTv = findViewById(R.id.descriptionDetail);
         mImageView = findViewById(R.id.imageView);
 
-        //Continuar en https://youtu.be/7r50UlnarpU?t=784
+        Intent intent = new Intent();
+        String mTitle = intent.getStringExtra("iTitle");
+        String mDesc = intent.getStringExtra("iDesc");
+        byte[] mBytes = intent.getByteArrayExtra("iImage");
+
+        //Decodificamos la imagen que proviene del Activity anterior en formato bytes
+
+        Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+
+        actionBar.setTitle(mTitle);
+
+        //Seteamos la data en los elementos de la vista
+        mTitleTv.setText(mTitle);
+        mDescTv.setText(mDesc);
+        mImageView.setImageBitmap(bitmap);
+
 
     }
-
 }
