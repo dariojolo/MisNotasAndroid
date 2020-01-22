@@ -37,6 +37,7 @@ public class DetailActivity extends AppCompatActivity {
         mImageView = findViewById(R.id.imageView);
         mImageFav = findViewById(R.id.imageView4);
 
+<<<<<<< master
         Intent intent = getIntent();
         String mTitle = intent.getStringExtra("iTitle");
         String mDesc = intent.getStringExtra("iDesc");
@@ -65,6 +66,23 @@ public class DetailActivity extends AppCompatActivity {
         mTitleTv.setText(mTitle);
         mDescTv.setText(mDesc);
       //  mImageView.setImageResource(R.drawable.ic_home_black_24dp);
+=======
+        Intent intent = new Intent();
+        String mTitle = intent.getStringExtra("iTitle");
+        String mDesc = intent.getStringExtra("iDesc");
+        byte[] mBytes = intent.getByteArrayExtra("iImage");
+
+        //Decodificamos la imagen que proviene del Activity anterior en formato bytes
+
+        Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+
+        actionBar.setTitle(mTitle);
+
+        //Seteamos la data en los elementos de la vista
+        mTitleTv.setText(mTitle);
+        mDescTv.setText(mDesc);
+        mImageView.setImageBitmap(bitmap);
+>>>>>>> develop~1
 
 
     }

@@ -3,7 +3,11 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< master
     android:layout_width="match_parent"
+=======
+    android:layout_width="wrap_content"
+>>>>>>> develop~1
     android:layout_height="wrap_content"
     app:cardCornerRadius="3dp"
     app:cardElevation="3dp"
@@ -11,16 +15,26 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
+<<<<<<< master
         android:layout_height="wrap_content">
+=======
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+>>>>>>> develop~1
 
         <ImageView
             android:id="@+id/imagefav"
             android:layout_width="100dp"
             android:layout_height="100dp"
+<<<<<<< master
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:src="@mipmap/ic_launcher_round"
+=======
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintEnd_toEndOf="parent"
+>>>>>>> develop~1
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,6 +62,7 @@
             app:layout_constraintEnd_toEndOf="@+id/titleFav"
             app:layout_constraintStart_toStartOf="@+id/titleFav"
             app:layout_constraintTop_toBottomOf="@+id/titleFav" />
+<<<<<<< master
 
         <ImageView
             android:id="@+id/imageView3"
@@ -59,5 +74,7 @@
             app:layout_constraintStart_toEndOf="@+id/imagefav"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@android:drawable/btn_star" />
+=======
+>>>>>>> develop~1
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

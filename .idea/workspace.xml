@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5574e85a-f47b-4eab-8ef1-3a61a7d18c4f" name="Default Changelist" comment="">
+<<<<<<< master
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/businesswoman.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/calendar.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/girl.png" afterDir="false" />
@@ -169,6 +170,15 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/MyAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/MyAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/MyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/MyHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$drawable.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapterFavs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolderFavs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$id.class" afterDir="false" />
+>>>>>>> develop~1
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$integer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$interpolator.class" afterDir="false" />
@@ -179,6 +189,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$string.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$style.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/R$styleable.class" afterDir="false" />
+<<<<<<< master
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/ui/home/HomeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/ui/home/HomeFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/ui/notifications/NotificationsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/ar/com/dariojolo/misnotas/ui/notifications/NotificationsFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" afterDir="false" />
@@ -310,6 +321,14 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/dashboard/DashboardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/dashboard/DashboardViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_favoritas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+>>>>>>> develop~1
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,6 +349,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< master
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -345,15 +365,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/CardModel.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="66" />
+>>>>>>> develop~1
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ItemClickListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< master
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="4" selection-end-line="7" selection-end-column="1" />
+>>>>>>> develop~1
             </state>
           </provider>
         </entry>
@@ -362,26 +403,69 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_element.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< master
             <state relative-caret-position="393">
               <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+              </folding>
+>>>>>>> develop~1
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< master
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/home/HomeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapterFavs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1726#2707#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+                <element signature="e#2773#2774#0" expanded="true" />
+                <element signature="e#2818#2819#0" expanded="true" />
+              </folding>
+>>>>>>> develop~1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< master
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/home/HomeViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> develop~1
             </state>
           </provider>
         </entry>
@@ -400,6 +484,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< master
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -410,17 +495,33 @@
                 <element signature="e#1400#2313#0" expanded="true" />
                 <element signature="e#2312#2313#0" expanded="true" />
                 <element signature="e#2792#2793#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolderFavs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> develop~1
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< master
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/home/HomeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="24" />
+>>>>>>> develop~1
             </state>
           </provider>
         </entry>
@@ -430,10 +531,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< master
         <option value="layoutResourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile_vertical" />
         <option value="Interface" />
+=======
+        <option value="Interface" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+>>>>>>> develop~1
       </list>
     </option>
   </component>
@@ -452,12 +560,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ItemClickListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MainActivity.java" />
+<<<<<<< master
+=======
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" />
+>>>>>>> develop~1
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_recycler_favs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_recyclerview_favs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/MyAdapterFav.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/MyAdapterFav.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolderFav.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapterFav.java" />
+<<<<<<< master
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/DashboardFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/MyAdapterFavs.java" />
@@ -478,10 +591,22 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/DashboardFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolderFavs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/MyAdapterFavs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_favoritas.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapterFavs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasFragment.java" />
+>>>>>>> develop~1
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1920" />
     <option name="y" value="-2" />
     <option name="width" value="1920" />
@@ -533,6 +658,7 @@
               <item name="misnotas" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="Favoritas" type="462c0819:PsiDirectoryNode" />
+<<<<<<< master
             </path>
             <path>
               <item name="Mis Notas" type="1abcf292:AndroidViewProjectNode" />
@@ -541,6 +667,8 @@
               <item name="misnotas" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> develop~1
             </path>
             <path>
               <item name="Mis Notas" type="1abcf292:AndroidViewProjectNode" />
@@ -555,12 +683,15 @@
             </path>
             <path>
               <item name="Mis Notas" type="1abcf292:AndroidViewProjectNode" />
+<<<<<<< master
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Mis Notas" type="1abcf292:AndroidViewProjectNode" />
+=======
+>>>>>>> develop~1
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -687,8 +818,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+<<<<<<< master
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49678457" visible="true" weight="0.19477054" />
       <window_info id="Structure" order="2" sideWeight="0.50321543" side_tool="true" weight="0.19477054" />
+=======
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49678457" visible="true" weight="0.19477054" />
+      <window_info id="Structure" order="2" sideWeight="0.50321543" side_tool="true" visible="true" weight="0.19477054" />
+>>>>>>> develop~1
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -702,9 +838,15 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.26077586" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
+<<<<<<< master
       <window_info anchor="bottom" id="Run" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3286638" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32903227" />
+>>>>>>> develop~1
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -745,6 +887,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/twitter.svg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/instagram.svg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/facebook.svg" />
+<<<<<<< master
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_element.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_detail.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> develop~1
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -820,6 +981,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< master
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/notifications/NotificationsViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -883,6 +1045,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="4" selection-end-line="7" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/CardModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/notifications/NotificationsViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> develop~1
         </state>
       </provider>
     </entry>
@@ -894,10 +1069,51 @@
         </state>
       </provider>
     </entry>
+<<<<<<< master
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/notifications/NotificationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favoritas.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+>>>>>>> develop~1
         </state>
       </provider>
     </entry>
@@ -919,6 +1135,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/home/HomeViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/home/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -926,11 +1163,32 @@
         </state>
       </provider>
     </entry>
+<<<<<<< master
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapterFavs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1726#2707#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="e#2818#2819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="21" />
+>>>>>>> develop~1
           <folding>
             <element signature="e#232#252#0" expanded="true" />
             <element signature="e#393#413#0" expanded="true" />
@@ -939,6 +1197,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< master
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_recycler_fav.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
@@ -997,11 +1256,33 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolderFavs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/DetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/MyHolder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+>>>>>>> develop~1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ar/com/dariojolo/misnotas/ui/Favoritas/FavoritasFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< master
         <state relative-caret-position="210">
           <caret line="43" column="57" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="57" />
         </state>
@@ -1029,6 +1310,10 @@
             <element signature="e#2312#2313#0" expanded="true" />
             <element signature="e#2792#2793#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="198">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+>>>>>>> develop~1
         </state>
       </provider>
     </entry>

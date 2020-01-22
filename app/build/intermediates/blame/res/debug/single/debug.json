@@ -198,6 +198,7 @@
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable-xxhdpi-v4/design_ic_visibility.png"
+<<<<<<< master
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_list.png.flat",
@@ -206,6 +207,8 @@
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_favorite_on.png.flat",
         "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_favorite_on.png"
+=======
+>>>>>>> develop~1
     },
     {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_dashboard_black_24dp.png.flat",
@@ -620,10 +623,13 @@
         "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-hdpi/ic_list.png"
     },
     {
+<<<<<<< master
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+=======
+>>>>>>> develop~1
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_btn_radio_material.xml"
     },

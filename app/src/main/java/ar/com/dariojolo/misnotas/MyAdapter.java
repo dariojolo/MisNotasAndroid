@@ -51,7 +51,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
             public void onItemClickListener(View view, int position) {
                 String gTitle = listado.get(position).getTitle();
                 String gDesc = listado.get(position).getDescription();
+<<<<<<< master
                 Boolean isFav = listado.get(position).isFavorita();
+=======
+>>>>>>> develop~1
                 BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.mImage.getDrawable();
 
                 Bitmap bitmap = bitmapDrawable.getBitmap();

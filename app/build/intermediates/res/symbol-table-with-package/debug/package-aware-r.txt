@@ -1225,9 +1225,12 @@ id ifRoom
 id image
 id imageIv
 id imageView
+<<<<<<< master
 id imageView2
 id imageView3
 id imageView4
+=======
+>>>>>>> develop~1
 id imagefav
 id info
 id invisible
