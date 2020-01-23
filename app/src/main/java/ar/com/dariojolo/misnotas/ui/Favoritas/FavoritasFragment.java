@@ -11,18 +11,20 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import java.util.ArrayList;
 
 import ar.com.dariojolo.misnotas.CardModel;
 import ar.com.dariojolo.misnotas.MyAdapter;
+import ar.com.dariojolo.misnotas.MyAdapterFavs;
 import ar.com.dariojolo.misnotas.R;
 
 public class FavoritasFragment extends Fragment {
 
     private FavoritasViewModel favoritasViewModel;
     RecyclerView mRecyclerView;
-    MyAdapter myAdapter;
+    MyAdapterFavs myAdapter;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -38,9 +40,9 @@ public class FavoritasFragment extends Fragment {
         }); */
 
         mRecyclerView = root.findViewById(R.id.recyclerViewFavs);
-        mRecyclerView.setLayoutManager(new GridLayoutManager(getContext(),2));
+        mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
 
-        myAdapter = new MyAdapter(getContext(), getMyList());
+        myAdapter = new MyAdapterFavs(getContext(), getMyList());
 
         mRecyclerView.setAdapter(myAdapter);
 
@@ -54,31 +56,41 @@ public class FavoritasFragment extends Fragment {
         CardModel card = new CardModel();
         card.setTitle("News Feed");
         card.setDescription("This is newsfeed description....");
-        card.setImg(R.drawable.ic_notifications_black_24dp);
+        card.setImg(R.drawable.girl);
+        card.setFavorita(false);
+        card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
         card = new CardModel();
         card.setTitle("Business");
         card.setDescription("This is business description....");
-        card.setImg(R.drawable.ic_notifications_black_24dp);
+        card.setImg(R.drawable.businesswoman);
+        card.setFavorita(false);
+        card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
         card = new CardModel();
         card.setTitle("People");
         card.setDescription("This is people description....");
-        card.setImg(R.drawable.ic_notifications_black_24dp);
+        card.setImg(R.drawable.calendar);
+        card.setFavorita(false);
+        card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
         card = new CardModel();
         card.setTitle("Notes");
         card.setDescription("This is notes description....");
-        card.setImg(R.drawable.ic_notifications_black_24dp);
+        card.setImg(R.drawable.hours);
+        card.setFavorita(false);
+        card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
         card = new CardModel();
         card.setTitle("Feedback");
         card.setDescription("This is feedback description....");
-        card.setImg(R.drawable.ic_notifications_black_24dp);
+        card.setImg(R.drawable.television);
+        card.setFavorita(false);
+        card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
 

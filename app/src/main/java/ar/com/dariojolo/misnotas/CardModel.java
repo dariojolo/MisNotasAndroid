@@ -3,12 +3,18 @@ package ar.com.dariojolo.misnotas;
 public class CardModel {
     private String title, description;
     private int img;
+    private boolean favorita;
+    private int color;
 
-    public CardModel(){}
-    public CardModel(String title, String description, int img) {
+    public CardModel() {
+    }
+
+    public CardModel(String title, String description, int img, boolean favorita, int color) {
         this.title = title;
         this.description = description;
         this.img = img;
+        this.favorita = favorita;
+        this.color = color;
     }
 
     public String getTitle() {
@@ -33,5 +39,21 @@ public class CardModel {
 
     public void setImg(int img) {
         this.img = img;
+    }
+
+    public boolean isFavorita() {
+        return favorita;
+    }
+
+    public void setFavorita(boolean favorita) {
+        this.favorita = favorita;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
     }
 }

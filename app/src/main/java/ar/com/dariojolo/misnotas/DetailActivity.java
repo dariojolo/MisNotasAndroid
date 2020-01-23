@@ -19,7 +19,8 @@ import android.widget.TextView;
 public class DetailActivity extends AppCompatActivity {
 
     TextView mTitleTv, mDescTv;
-    ImageView mImageView;
+    ImageView mImageView, mImageFav;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,22 +35,36 @@ public class DetailActivity extends AppCompatActivity {
         mTitleTv = findViewById(R.id.titleDetail);
         mDescTv = findViewById(R.id.descriptionDetail);
         mImageView = findViewById(R.id.imageView);
+        mImageFav = findViewById(R.id.imageView4);
 
-        Intent intent = new Intent();
+        Intent intent = getIntent();
         String mTitle = intent.getStringExtra("iTitle");
         String mDesc = intent.getStringExtra("iDesc");
         byte[] mBytes = intent.getByteArrayExtra("iImage");
+        Boolean isFavorita = intent.getBooleanExtra("iFav",false);
 
         //Decodificamos la imagen que proviene del Activity anterior en formato bytes
 
-        Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+        if (mBytes.length > 0 ){
+            Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+            mImageView.setImageBitmap(bitmap);
+        } else{
+            mImageView.setImageResource(R.drawable.ic_home_black_24dp);
+        }
+
+        if (isFavorita){
+            mImageFav.setImageResource(R.drawable.ic_favorite_on);
+        }else{
+            mImageFav.setImageResource(R.drawable.ic_favorite_off);
+        }
+
 
         actionBar.setTitle(mTitle);
 
         //Seteamos la data en los elementos de la vista
         mTitleTv.setText(mTitle);
         mDescTv.setText(mDesc);
-        mImageView.setImageBitmap(bitmap);
+      //  mImageView.setImageResource(R.drawable.ic_home_black_24dp);
 
 
     }

@@ -18,6 +18,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     Context context;
     ArrayList<CardModel>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
+    Boolean isFavorita;
 
     public MyAdapter(Context context, ArrayList<CardModel> listado) {
         this.context = context;
@@ -36,12 +37,21 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
         holder.mTitle.setText(listado.get(position).getTitle());
         holder.mDescription.setText(listado.get(position).getDescription());
         holder.mImage.setImageResource(listado.get(position).getImg());
+        isFavorita = listado.get(position).isFavorita();
+
+        if (isFavorita){
+            holder.mfav.setImageResource(R.drawable.ic_favorite_on);
+        }else{
+            holder.mfav.setImageResource(R.drawable.ic_favorite_off);
+        }
+
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onItemClickListener(View view, int position) {
                 String gTitle = listado.get(position).getTitle();
                 String gDesc = listado.get(position).getDescription();
+                Boolean isFav = listado.get(position).isFavorita();
                 BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.mImage.getDrawable();
 
                 Bitmap bitmap = bitmapDrawable.getBitmap();
@@ -57,6 +67,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 intent.putExtra("iTitle", gTitle);
                 intent.putExtra("iDesc", gDesc);
                 intent.putExtra("iImage", bytes);
+                intent.putExtra("iFav", isFav);
 
                 context.startActivity(intent);
             }

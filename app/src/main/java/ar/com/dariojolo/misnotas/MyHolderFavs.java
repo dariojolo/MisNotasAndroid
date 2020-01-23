@@ -15,9 +15,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
         MyHolderFavs(@NonNull View itemView) {
             super(itemView);
-            this.mImage = itemView.findViewById(R.id.imageIv);
-            this.mTitle = itemView.findViewById(R.id.titleIv);
-            this.mDescription = itemView.findViewById(R.id.descriptionIv);
+            this.mImage = itemView.findViewById(R.id.imagefav);
+            this.mTitle = itemView.findViewById(R.id.titleFav);
+            this.mDescription = itemView.findViewById(R.id.descriptionFav);
 
             itemView.setOnClickListener(this);
         }

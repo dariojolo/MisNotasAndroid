@@ -1,9 +1,7 @@
 package ar.com.dariojolo.misnotas;
 
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,15 +9,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
-
-import ar.com.dariojolo.misnotas.CardModel;
-import ar.com.dariojolo.misnotas.DetailActivity;
-import ar.com.dariojolo.misnotas.ItemClickListener;
-import ar.com.dariojolo.misnotas.MyHolderFavs;
-import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
 
@@ -34,7 +24,7 @@ public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
         @NonNull
         @Override
         public MyHolderFavs onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_element,null); //Infla el elemento del recyclerview a cargar
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_recycler_fav,null); //Infla el elemento del recyclerview a cargar
             return new MyHolderFavs(view);
         }
 
@@ -49,15 +39,15 @@ public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
                 public void onItemClickListener(View view, int position) {
                     String gTitle = listado.get(position).getTitle();
                     String gDesc = listado.get(position).getDescription();
-                    BitmapDrawable bitmapDrawable = (BitmapDrawable)holder.mImage.getDrawable();
+                //    BitmapDrawable bitmapDrawable = (BitmapDrawable)holder.mImage.getDrawable();
 
-                    Bitmap bitmap = bitmapDrawable.getBitmap();
+                //    Bitmap bitmap = bitmapDrawable.getBitmap();
 
-                    ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                    //   ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
-                    bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                //    bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
 
-                    byte[]bytes = stream.toByteArray();
+                //    byte[]bytes = stream.toByteArray();
                     Toast.makeText(context, "Presionado: " + gTitle, Toast.LENGTH_SHORT).show();
 
                     /*Intent intent = new Intent(context, DetailActivity.class);

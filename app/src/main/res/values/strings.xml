@@ -4,4 +4,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="notes_home">Notas</string>
+    <string name="notes_favs">Favoritas</string>
+    <string name="settings">Settings</string>
 </resources>
