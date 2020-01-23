@@ -211,6 +211,14 @@
 >>>>>>> develop~1
     },
     {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_list.png.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-mdpi/ic_list.png"
+    },
+    {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_favorite_on.png.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_favorite_on.png"
+    },
+    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_dashboard_black_24dp.png.flat",
         "source": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/generated/res/pngs/debug/drawable-hdpi/ic_dashboard_black_24dp.png"
     },
@@ -624,6 +632,9 @@
     },
     {
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         "merged": "/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },

@@ -113,6 +113,9 @@ public final class R {
         public static final int chronometer = 0x7f08004b;
         public static final int end = 0x7f080064;
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         public static final int forever = 0x7f08006f;
         public static final int icon = 0x7f080076;
         public static final int icon_group = 0x7f080077;
@@ -139,6 +142,7 @@ public final class R {
         public static final int time = 0x7f0800ef;
         public static final int title = 0x7f0800f0;
         public static final int top = 0x7f0800f7;
+<<<<<<< master
 =======
         public static final int forever = 0x7f080070;
         public static final int icon = 0x7f080077;
@@ -167,6 +171,8 @@ public final class R {
         public static final int title = 0x7f0800ee;
         public static final int top = 0x7f0800f5;
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
     }
     public static final class integer {
         private integer() {}

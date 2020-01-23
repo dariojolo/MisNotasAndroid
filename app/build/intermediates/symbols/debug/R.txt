@@ -1207,6 +1207,9 @@ int id exitUntilCollapsed 0x7f080067
 int id expand_activities_button 0x7f080068
 int id expanded_menu 0x7f080069
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
 int id fill 0x7f08006a
 int id fill_horizontal 0x7f08006b
 int id fill_vertical 0x7f08006c
@@ -1366,6 +1369,7 @@ int id visible 0x7f080105
 int id withText 0x7f080106
 int id wrap 0x7f080107
 int id wrap_content 0x7f080108
+<<<<<<< master
 =======
 int id fab 0x7f08006a
 int id fill 0x7f08006b
@@ -1525,6 +1529,8 @@ int id withText 0x7f080104
 int id wrap 0x7f080105
 int id wrap_content 0x7f080106
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer app_bar_elevation_anim_duration 0x7f090002

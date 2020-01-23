@@ -36,6 +36,7 @@ public class DetailActivity extends AppCompatActivity {
         mDescTv = findViewById(R.id.descriptionDetail);
         mImageView = findViewById(R.id.imageView);
         mImageFav = findViewById(R.id.imageView4);
+<<<<<<< master
 
 <<<<<<< master
         Intent intent = getIntent();
@@ -68,21 +69,42 @@ public class DetailActivity extends AppCompatActivity {
       //  mImageView.setImageResource(R.drawable.ic_home_black_24dp);
 =======
         Intent intent = new Intent();
+=======
+
+        Intent intent = getIntent();
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         String mTitle = intent.getStringExtra("iTitle");
         String mDesc = intent.getStringExtra("iDesc");
         byte[] mBytes = intent.getByteArrayExtra("iImage");
+        Boolean isFavorita = intent.getBooleanExtra("iFav",false);
 
         //Decodificamos la imagen que proviene del Activity anterior en formato bytes
 
-        Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+        if (mBytes.length > 0 ){
+            Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
+            mImageView.setImageBitmap(bitmap);
+        } else{
+            mImageView.setImageResource(R.drawable.ic_home_black_24dp);
+        }
+
+        if (isFavorita){
+            mImageFav.setImageResource(R.drawable.ic_favorite_on);
+        }else{
+            mImageFav.setImageResource(R.drawable.ic_favorite_off);
+        }
+
 
         actionBar.setTitle(mTitle);
 
         //Seteamos la data en los elementos de la vista
         mTitleTv.setText(mTitle);
         mDescTv.setText(mDesc);
+<<<<<<< master
         mImageView.setImageBitmap(bitmap);
 >>>>>>> develop~1
+=======
+      //  mImageView.setImageResource(R.drawable.ic_home_black_24dp);
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
 
 
     }

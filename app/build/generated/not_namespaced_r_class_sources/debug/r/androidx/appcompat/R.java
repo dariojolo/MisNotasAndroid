@@ -721,6 +721,9 @@ public final class R {
         public static final int expand_activities_button = 0x7f080068;
         public static final int expanded_menu = 0x7f080069;
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         public static final int forever = 0x7f08006f;
         public static final int group_divider = 0x7f080072;
         public static final int home = 0x7f080074;
@@ -793,6 +796,7 @@ public final class R {
         public static final int uniform = 0x7f080100;
         public static final int up = 0x7f080102;
         public static final int wrap_content = 0x7f080108;
+<<<<<<< master
 =======
         public static final int forever = 0x7f080070;
         public static final int group_divider = 0x7f080073;
@@ -867,6 +871,8 @@ public final class R {
         public static final int up = 0x7f080100;
         public static final int wrap_content = 0x7f080106;
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
     }
     public static final class integer {
         private integer() {}

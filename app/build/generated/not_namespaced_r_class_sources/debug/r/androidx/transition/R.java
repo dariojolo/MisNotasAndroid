@@ -87,6 +87,9 @@ public final class R {
         public static final int blocking = 0x7f080042;
         public static final int chronometer = 0x7f08004b;
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         public static final int forever = 0x7f08006f;
         public static final int ghost_view = 0x7f080070;
         public static final int icon = 0x7f080076;
@@ -117,6 +120,7 @@ public final class R {
         public static final int transition_position = 0x7f0800fc;
         public static final int transition_scene_layoutid_cache = 0x7f0800fd;
         public static final int transition_transform = 0x7f0800fe;
+<<<<<<< master
 =======
         public static final int forever = 0x7f080070;
         public static final int ghost_view = 0x7f080071;
@@ -149,6 +153,8 @@ public final class R {
         public static final int transition_scene_layoutid_cache = 0x7f0800fb;
         public static final int transition_transform = 0x7f0800fc;
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
     }
     public static final class integer {
         private integer() {}

@@ -52,9 +52,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 String gTitle = listado.get(position).getTitle();
                 String gDesc = listado.get(position).getDescription();
 <<<<<<< master
+<<<<<<< master
                 Boolean isFav = listado.get(position).isFavorita();
 =======
 >>>>>>> develop~1
+=======
+                Boolean isFav = listado.get(position).isFavorita();
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
                 BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.mImage.getDrawable();
 
                 Bitmap bitmap = bitmapDrawable.getBitmap();

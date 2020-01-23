@@ -1226,11 +1226,17 @@ id image
 id imageIv
 id imageView
 <<<<<<< master
+<<<<<<< master
 id imageView2
 id imageView3
 id imageView4
 =======
 >>>>>>> develop~1
+=======
+id imageView2
+id imageView3
+id imageView4
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
 id imagefav
 id info
 id invisible

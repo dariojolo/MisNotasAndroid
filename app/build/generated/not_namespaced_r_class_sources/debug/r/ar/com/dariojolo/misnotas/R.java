@@ -5040,6 +5040,9 @@ public final class R {
     public static final int expand_activities_button=0x7f080068;
     public static final int expanded_menu=0x7f080069;
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
     public static final int fill=0x7f08006a;
     public static final int fill_horizontal=0x7f08006b;
     public static final int fill_vertical=0x7f08006c;
@@ -5199,6 +5202,7 @@ public final class R {
     public static final int withText=0x7f080106;
     public static final int wrap=0x7f080107;
     public static final int wrap_content=0x7f080108;
+<<<<<<< master
 =======
     public static final int fab=0x7f08006a;
     public static final int fill=0x7f08006b;
@@ -5358,6 +5362,8 @@ public final class R {
     public static final int wrap=0x7f080105;
     public static final int wrap_content=0x7f080106;
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;

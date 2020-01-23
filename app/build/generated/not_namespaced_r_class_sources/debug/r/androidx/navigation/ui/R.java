@@ -1104,6 +1104,9 @@ public final class R {
         public static final int expand_activities_button = 0x7f080068;
         public static final int expanded_menu = 0x7f080069;
 <<<<<<< master
+<<<<<<< master
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
         public static final int fill = 0x7f08006a;
         public static final int filled = 0x7f08006d;
         public static final int fixed = 0x7f08006e;
@@ -1216,6 +1219,7 @@ public final class R {
         public static final int view_offset_helper = 0x7f080104;
         public static final int visible = 0x7f080105;
         public static final int wrap_content = 0x7f080108;
+<<<<<<< master
 =======
         public static final int fill = 0x7f08006b;
         public static final int filled = 0x7f08006e;
@@ -1330,6 +1334,8 @@ public final class R {
         public static final int visible = 0x7f080103;
         public static final int wrap_content = 0x7f080106;
 >>>>>>> develop~1
+=======
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
     }
     public static final class integer {
         private integer() {}

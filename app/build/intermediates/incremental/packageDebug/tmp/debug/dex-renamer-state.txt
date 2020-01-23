@@ -1,8 +1,12 @@
 <<<<<<< master
+<<<<<<< master
 #Thu Jan 23 17:02:10 ART 2020
 =======
 #Wed Jan 22 17:53:41 ART 2020
 >>>>>>> develop~1
+=======
+#Thu Jan 23 17:02:10 ART 2020
+>>>>>>> Se modificaron los layout de los recyclerview - se agrego el icono de favoritos en los recyclerview
 base.0=/home/darioj/AndroidStudioProjects/MisNotitas/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
