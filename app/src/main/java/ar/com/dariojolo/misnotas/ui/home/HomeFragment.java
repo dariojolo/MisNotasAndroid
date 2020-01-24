@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import ar.com.dariojolo.misnotas.CardModel;
-import ar.com.dariojolo.misnotas.MyAdapter;
+import ar.com.dariojolo.misnotas.Models.NotaModel;
+import ar.com.dariojolo.misnotas.Adapters.MyAdapter;
 import ar.com.dariojolo.misnotas.R;
 
 public class HomeFragment extends Fragment {
@@ -47,10 +47,10 @@ public class HomeFragment extends Fragment {
         return root;
     }
 
-    private ArrayList<CardModel>getMyList(){
-        ArrayList<CardModel> listado = new ArrayList<>();
+    private ArrayList<NotaModel>getMyList(){
+        ArrayList<NotaModel> listado = new ArrayList<>();
 
-        CardModel card = new CardModel();
+        NotaModel card = new NotaModel();
         card.setTitle("News Feed");
         card.setDescription("This is newsfeed description....");
         card.setImg(R.drawable.girl);
@@ -58,7 +58,7 @@ public class HomeFragment extends Fragment {
         card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
-        card = new CardModel();
+        card = new NotaModel();
         card.setTitle("Business");
         card.setDescription("This is business description....");
         card.setImg(R.drawable.businesswoman);
@@ -66,7 +66,7 @@ public class HomeFragment extends Fragment {
         card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
-        card = new CardModel();
+        card = new NotaModel();
         card.setTitle("People");
         card.setDescription("This is people description....");
         card.setImg(R.drawable.calendar);
@@ -74,7 +74,7 @@ public class HomeFragment extends Fragment {
         card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
-        card = new CardModel();
+        card = new NotaModel();
         card.setTitle("Notes");
         card.setDescription("This is notes description....");
         card.setImg(R.drawable.hours);
@@ -82,7 +82,7 @@ public class HomeFragment extends Fragment {
         card.setColor(android.R.color.holo_green_dark);
         listado.add(card);
 
-        card = new CardModel();
+        card = new NotaModel();
         card.setTitle("Feedback");
         card.setDescription("This is feedback description....");
         card.setImg(R.drawable.television);
