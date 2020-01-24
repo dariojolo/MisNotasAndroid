@@ -17,16 +17,16 @@ import java.util.ArrayList;
 
 import ar.com.dariojolo.misnotas.Activities.DetailActivity;
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
-import ar.com.dariojolo.misnotas.Models.NotaModel;
+import ar.com.dariojolo.misnotas.Entities.NotaEntity;
 import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     Context context;
-    ArrayList<NotaModel>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
+    ArrayList<NotaEntity>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
     Boolean isFavorita;
 
-    public MyAdapter(Context context, ArrayList<NotaModel> listado) {
+    public MyAdapter(Context context, ArrayList<NotaEntity> listado) {
         this.context = context;
         this.listado = listado;
     }
@@ -96,7 +96,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
             }
         });
     }
-    public void swapItems(ArrayList<NotaModel> lista){
+    public void swapItems(ArrayList<NotaEntity> lista){
         this.listado = lista;
         notifyDataSetChanged();
     }

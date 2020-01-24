@@ -1275,8 +1275,9 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recyclerView
 id recyclerViewFavs
+id recyclerView_landscape
+id recyclerView_portrait
 id right
 id right_icon
 id right_side

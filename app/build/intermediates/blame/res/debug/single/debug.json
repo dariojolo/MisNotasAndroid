@@ -972,6 +972,10 @@
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout/notification_template_custom_big.xml"
     },
     {
+        "merged": "/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/build/intermediates/res/merged/debug/layout-land_fragment_home.xml.flat",
+        "source": "/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/res/layout-land/fragment_home.xml"
+    },
+    {
         "merged": "/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/darioj/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },

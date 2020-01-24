@@ -1,6 +1,7 @@
 package ar.com.dariojolo.misnotas.ui.Favoritas;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import java.util.ArrayList;
 
-import ar.com.dariojolo.misnotas.Models.NotaModel;
+import ar.com.dariojolo.misnotas.Entities.NotaEntity;
 import ar.com.dariojolo.misnotas.Adapters.MyAdapterFavs;
 import ar.com.dariojolo.misnotas.R;
 
@@ -29,7 +30,12 @@ public class FavoritasFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_favoritas, container, false);
 
         mRecyclerView = root.findViewById(R.id.recyclerViewFavs);
-        mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+
+        DisplayMetrics displayMetrics = getContext().getResources().getDisplayMetrics();
+        float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
+        int numeroColumnas = (int) (dpWidth / 180 );
+
+        mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(numeroColumnas, StaggeredGridLayoutManager.VERTICAL));
 
         myAdapter = new MyAdapterFavs(getContext(), getMyList());
         mRecyclerView.setAdapter(myAdapter);
@@ -37,10 +43,10 @@ public class FavoritasFragment extends Fragment {
         return root;
     }
 
-    private ArrayList<NotaModel> getMyList(){
-        ArrayList<NotaModel> listado = new ArrayList<>();
+    private ArrayList<NotaEntity> getMyList(){
+        ArrayList<NotaEntity> listado = new ArrayList<>();
 
-        NotaModel card = new NotaModel();
+        NotaEntity card = new NotaEntity();
         card.setTitle("News Feed");
         card.setDescription("This is newsfeed description....");
         card.setImg(R.drawable.girl);
@@ -50,7 +56,7 @@ public class FavoritasFragment extends Fragment {
             listado.add(card);
         }
 
-        card = new NotaModel();
+        card = new NotaEntity();
         card.setTitle("Business");
         card.setDescription("This is business description....");
         card.setImg(R.drawable.businesswoman);
@@ -60,7 +66,7 @@ public class FavoritasFragment extends Fragment {
             listado.add(card);
         }
 
-        card = new NotaModel();
+        card = new NotaEntity();
         card.setTitle("People");
         card.setDescription("This is people description....");
         card.setImg(R.drawable.calendar);
@@ -70,7 +76,7 @@ public class FavoritasFragment extends Fragment {
             listado.add(card);
         }
 
-        card = new NotaModel();
+        card = new NotaEntity();
         card.setTitle("Notes");
         card.setDescription("This is notes description....");
         card.setImg(R.drawable.hours);
@@ -80,7 +86,7 @@ public class FavoritasFragment extends Fragment {
             listado.add(card);
         }
 
-        card = new NotaModel();
+        card = new NotaEntity();
         card.setTitle("Feedback");
         card.setDescription("This is feedback description....");
         card.setImg(R.drawable.television);

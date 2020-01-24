@@ -12,15 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
-import ar.com.dariojolo.misnotas.Models.NotaModel;
+import ar.com.dariojolo.misnotas.Entities.NotaEntity;
 import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
 
         Context context;
-        ArrayList<NotaModel> listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
+        ArrayList<NotaEntity> listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
 
-        public MyAdapterFavs(Context context, ArrayList<NotaModel> listado) {
+        public MyAdapterFavs(Context context, ArrayList<NotaEntity> listado) {
             this.context = context;
             this.listado = listado;
         }

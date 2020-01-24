@@ -1,20 +1,41 @@
-package ar.com.dariojolo.misnotas.Models;
+package ar.com.dariojolo.misnotas.Entities;
 
-public class NotaModel {
-    private String title, description;
-    private int img;
-    private boolean favorita;
-    private int color;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
-    public NotaModel() {
+@Entity(tableName = "notas")
+public class NotaEntity {
+
+    @PrimaryKey(autoGenerate = true)
+    public int id;
+
+    public String title;
+
+    public String description;
+
+    public int img;
+
+    public boolean favorita;
+
+    public int color;
+
+    public NotaEntity() {
     }
 
-    public NotaModel(String title, String description, int img, boolean favorita, int color) {
+    public NotaEntity(String title, String description, int img, boolean favorita, int color) {
         this.title = title;
         this.description = description;
         this.img = img;
         this.favorita = favorita;
         this.color = color;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTitle() {
