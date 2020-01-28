@@ -46,56 +46,6 @@ public class FavoritasFragment extends Fragment {
     private ArrayList<NotaEntity> getMyList(){
         ArrayList<NotaEntity> listado = new ArrayList<>();
 
-        NotaEntity card = new NotaEntity();
-        card.setTitle("News Feed");
-        card.setDescription("This is newsfeed description....");
-        card.setImg(R.drawable.girl);
-        card.setFavorita(true);
-        card.setColor(android.R.color.holo_green_dark);
-        if (card.isFavorita()) {
-            listado.add(card);
-        }
-
-        card = new NotaEntity();
-        card.setTitle("Business");
-        card.setDescription("This is business description....");
-        card.setImg(R.drawable.businesswoman);
-        card.setFavorita(false);
-        card.setColor(android.R.color.holo_green_dark);
-        if (card.isFavorita()) {
-            listado.add(card);
-        }
-
-        card = new NotaEntity();
-        card.setTitle("People");
-        card.setDescription("This is people description....");
-        card.setImg(R.drawable.calendar);
-        card.setFavorita(true);
-        card.setColor(android.R.color.holo_green_dark);
-        if (card.isFavorita()) {
-            listado.add(card);
-        }
-
-        card = new NotaEntity();
-        card.setTitle("Notes");
-        card.setDescription("This is notes description....");
-        card.setImg(R.drawable.hours);
-        card.setFavorita(false);
-        card.setColor(android.R.color.holo_green_dark);
-        if (card.isFavorita()) {
-            listado.add(card);
-        }
-
-        card = new NotaEntity();
-        card.setTitle("Feedback");
-        card.setDescription("This is feedback description....");
-        card.setImg(R.drawable.television);
-        card.setFavorita(true);
-        card.setColor(android.R.color.holo_green_dark);
-        if (card.isFavorita()) {
-            listado.add(card);
-        }
-
 
         return listado;
     }

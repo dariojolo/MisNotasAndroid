@@ -1,5 +1,6 @@
 package ar.com.dariojolo.misnotas.Adapters;
 
+import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -10,25 +11,33 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 import ar.com.dariojolo.misnotas.Activities.DetailActivity;
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
 import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.NuevaNotaDialogViewModel;
 import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     Context context;
-    ArrayList<NotaEntity>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
+    List<NotaEntity>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
     Boolean isFavorita;
+    private NuevaNotaDialogViewModel viewModel;
 
-    public MyAdapter(Context context, ArrayList<NotaEntity> listado) {
+    public MyAdapter(List<NotaEntity> listado, Context context) {
         this.context = context;
         this.listado = listado;
+        viewModel = ViewModelProviders.of((AppCompatActivity)context).get(NuevaNotaDialogViewModel.class);
     }
 
     @NonNull
@@ -40,17 +49,27 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull final MyHolder holder, final int position) {
+        holder.mItem = listado.get(position);
         holder.mTitle.setText(listado.get(position).getTitle());
         holder.mDescription.setText(listado.get(position).getDescription());
         holder.mImage.setImageResource(listado.get(position).getImg());
         isFavorita = listado.get(position).isFavorita();
-        holder.imgButton.setOnClickListener(new View.OnClickListener() {
+        holder.mfav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "presiono una estrella " + holder.mTitle.getText(), Toast.LENGTH_SHORT).show();
-                listado.get(position).setFavorita(!listado.get(position).isFavorita());
+                //Toast.makeText(context, "presiono una estrella " + holder.mTitle.getText(), Toast.LENGTH_SHORT).show();
+                //listado.get(position).setFavorita(!listado.get(position).isFavorita());
+                //  swapItems(listado);
 
-                swapItems(listado);
+                if (holder.mItem.isFavorita()){
+                    holder.mItem.setFavorita(false);
+                    holder.mfav.setImageResource(R.drawable.ic_favorite_off);
+                }else{
+                    holder.mItem.setFavorita(true);
+                    holder.mfav.setImageResource(R.drawable.ic_favorite_on);
+                }
+                viewModel.updateNota(holder.mItem);
+
             }
         });
         if (isFavorita){
@@ -74,7 +93,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
                 Boolean isFav = listado.get(position).isFavorita();
 
-                BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.mImage.getDrawable();
+           /*     BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.mImage.getDrawable();
 
                 Bitmap bitmap = bitmapDrawable.getBitmap();
 
@@ -82,13 +101,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
 
-                byte[]bytes = stream.toByteArray();
+                byte[]bytes = stream.toByteArray(); */
 
                 Intent intent = new Intent(context, DetailActivity.class);
 
                 intent.putExtra("iTitle", gTitle);
                 intent.putExtra("iDesc", gDesc);
-                intent.putExtra("iImage", bytes);
+                //intent.putExtra("iImage", bytes);
                 intent.putExtra("iFav", isFav);
 
                 context.startActivity(intent);
@@ -96,7 +115,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
             }
         });
     }
-    public void swapItems(ArrayList<NotaEntity> lista){
+    public void swapItems(List<NotaEntity> lista){
         this.listado = lista;
         notifyDataSetChanged();
     }
@@ -104,5 +123,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     @Override
     public int getItemCount() {
         return listado.size();
+    }
+
+    public void setNuevasNotas(List<NotaEntity> nuevasNotas){
+        this.listado = nuevasNotas;
+        notifyDataSetChanged();
     }
 }

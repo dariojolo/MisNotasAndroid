@@ -1,7 +1,12 @@
 package ar.com.dariojolo.misnotas.Entities;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+
+import java.io.Serializable;
 
 @Entity(tableName = "notas")
 public class NotaEntity {
@@ -17,12 +22,9 @@ public class NotaEntity {
 
     public boolean favorita;
 
-    public int color;
+    public String color;
 
-    public NotaEntity() {
-    }
-
-    public NotaEntity(String title, String description, int img, boolean favorita, int color) {
+    public NotaEntity(String title, String description, int img, boolean favorita, String color) {
         this.title = title;
         this.description = description;
         this.img = img;
@@ -70,11 +72,12 @@ public class NotaEntity {
         this.favorita = favorita;
     }
 
-    public int getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(int color) {
+    public void setColor(String color) {
         this.color = color;
     }
+
 }

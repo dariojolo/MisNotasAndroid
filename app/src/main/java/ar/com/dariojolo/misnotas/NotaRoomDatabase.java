@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase;
 import ar.com.dariojolo.misnotas.DAOs.NotaDao;
 import ar.com.dariojolo.misnotas.Entities.NotaEntity;
 
-@Database(entities = {NotaEntity.class}, version = 1)
+@Database(entities = {NotaEntity.class}, version = 1, exportSchema = false)
 public abstract class NotaRoomDatabase extends RoomDatabase {
 
     public abstract NotaDao getNotaDao();

@@ -1,7 +1,37 @@
 package ar.com.dariojolo.misnotas;
 
-import androidx.lifecycle.ViewModel;
+import android.app.Application;
 
-public class NuevaNotaDialogViewModel extends ViewModel {
-    // TODO: Implement the ViewModel
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+
+import java.util.List;
+
+import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.Repositories.NotaRepository;
+
+public class NuevaNotaDialogViewModel extends AndroidViewModel {
+
+    private LiveData<List<NotaEntity>>allNotas;
+    private NotaRepository notaRepository;
+
+    public NuevaNotaDialogViewModel(Application application){
+        super(application);
+
+        notaRepository = new NotaRepository(application);
+        allNotas = notaRepository.getAll();
+    }
+
+    public LiveData<List<NotaEntity>>getAllNotas(){
+        return allNotas;
+    }
+
+    public void insertNota(NotaEntity nuevaNotaEntity){
+        notaRepository.insert(nuevaNotaEntity);
+    }
+
+    public void updateNota(NotaEntity nuevaNotaEntity){
+        notaRepository.update(nuevaNotaEntity);
+    }
+
 }

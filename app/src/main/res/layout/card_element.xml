@@ -61,19 +61,7 @@
              android:layout_marginRight="16dp"
              app:layout_constraintEnd_toEndOf="parent"
              app:layout_constraintTop_toTopOf="parent"
-             app:srcCompat="@android:drawable/btn_star_big_on" />
-
-         <ImageButton
-             android:id="@+id/imageButton"
-             style="@style/Widget.AppCompat.Button.Borderless.Colored"
-             android:layout_width="30dp"
-             android:layout_height="30dp"
-             android:layout_marginEnd="16dp"
-             android:layout_marginRight="16dp"
-             android:layout_marginBottom="8dp"
-             app:layout_constraintBottom_toBottomOf="parent"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:srcCompat="@android:drawable/btn_star_big_off" />
+              />
 
      </androidx.constraintlayout.widget.ConstraintLayout>
 

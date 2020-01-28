@@ -1,5 +1,6 @@
 package ar.com.dariojolo.misnotas.Activities;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -8,20 +9,36 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentManager;
 
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import ar.com.dariojolo.misnotas.EditarNotaActivity;
+import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.NuevaNotaDialogFragment;
 import ar.com.dariojolo.misnotas.R;
 
 public class DetailActivity extends AppCompatActivity {
 
     TextView mTitleTv, mDescTv;
     ImageView mImageView, mImageFav;
+    Switch btnFav;
+    String mTitle;
+    String mDesc;
+    Boolean isFavorita;
 
 
     @Override
@@ -38,25 +55,29 @@ public class DetailActivity extends AppCompatActivity {
         mImageView = findViewById(R.id.imageView);
         mImageFav = findViewById(R.id.imageView4);
 
+
         Intent intent = getIntent();
-        String mTitle = intent.getStringExtra("iTitle");
-        String mDesc = intent.getStringExtra("iDesc");
-        byte[] mBytes = intent.getByteArrayExtra("iImage");
-        Boolean isFavorita = intent.getBooleanExtra("iFav",false);
+        mTitle = intent.getStringExtra("iTitle");
+        mDesc = intent.getStringExtra("iDesc");
+     //   byte[] mBytes = intent.getByteArrayExtra("iImage");
+        isFavorita = intent.getBooleanExtra("iFav",false);
+        btnFav = (Switch) findViewById(R.id.switchFav);
 
         //Decodificamos la imagen que proviene del Activity anterior en formato bytes
 
-        if (mBytes.length > 0 ){
+    /*    if (mBytes.length > 0 ){
             Bitmap bitmap = BitmapFactory.decodeByteArray(mBytes, 0, mBytes.length);
             mImageView.setImageBitmap(bitmap);
         } else{
             mImageView.setImageResource(R.drawable.ic_home_black_24dp);
-        }
-
+        } */
+        mImageView.setImageResource(R.drawable.ic_home_black_24dp);
         if (isFavorita){
             mImageFav.setImageResource(R.drawable.ic_favorite_on);
+            btnFav.setChecked(true);
         }else{
             mImageFav.setImageResource(R.drawable.ic_favorite_off);
+            btnFav.setChecked(false);
         }
 
 
@@ -67,5 +88,67 @@ public class DetailActivity extends AppCompatActivity {
         mDescTv.setText(mDesc);
       //  mImageView.setImageResource(R.drawable.ic_home_black_24dp);
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu_nota_detalle, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.action_add_edit:
+                NotaEntity nota = new NotaEntity( mTitle, mDesc, 0, isFavorita, "");
+
+                mostrarDialogoEditarNota(nota);
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void mostrarDialogoEditarNota(NotaEntity nota) {
+        Toast.makeText(this, "Editar nota " + nota.getTitle() +" - Es favorita:" + nota.isFavorita(), Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, EditarNotaActivity.class);
+        intent.putExtra("titulo", nota.getTitle());
+        intent.putExtra("desc", nota.getDescription());
+        intent.putExtra("favorita", nota.isFavorita());
+        intent.putExtra("color", nota.getColor());
+
+        startActivity(intent);
+
+
+        /*
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+
+        builder.setView(inflater.inflate(R.layout.nueva_nota_dialog_fragment, null))
+                .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+                        Toast.makeText(getApplicationContext(), "Aceptar", Toast.LENGTH_SHORT).show();
+                        dialog.dismiss();
+                    }
+                })
+                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
+                    }
+                });
+
+
+
+        builder.setMessage("Mensaje")
+                .setTitle("Titulo");
+        AlertDialog dialog = builder.create();
+        dialog.show(); */
+
+
+//        FragmentManager fm = this.getSupportFragmentManager();
+//        NuevaNotaDialogFragment dialogNuevaNota = new NuevaNotaDialogFragment();
+//        dialogNuevaNota.show(fm, "EdithNotaDialogFragment");
     }
 }
