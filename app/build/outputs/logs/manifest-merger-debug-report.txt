@@ -100,26 +100,26 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/ca
 		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:11:9-40
-activity#ar.com.dariojolo.misnotas.EditarNotaActivity
-ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:9-65
+activity#ar.com.dariojolo.misnotas.ui.EditarNotaActivity
+ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:9-68
 	android:name
-		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:19-53
-activity#ar.com.dariojolo.misnotas.Activities.DetailActivity
+		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:19-56
+activity#ar.com.dariojolo.misnotas.ui.DetailActivity
 ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:14:9-18:59
 	android:parentActivityName
-		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:17:13-66
+		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:17:13-58
 	android:label
 		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:16:13-58
 	android:theme
 		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:15:13-54
-activity#ar.com.dariojolo.misnotas.Activities.MainActivity
+		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:15:13-46
+activity#ar.com.dariojolo.misnotas.ui.MainActivity
 ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:label
 		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:21:13-45
 	android:name
-		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:20:13-52
+		ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:20:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN

@@ -25,57 +25,56 @@
 17-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="ar.com.dariojolo.misnotas.EditarNotaActivity" />
-21-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:9-65
-21-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:19-53
-22        <activity
-22-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:14:9-18:59
-23            android:name="ar.com.dariojolo.misnotas.Activities.DetailActivity"
-23-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:15:13-54
-24            android:label="@string/title_activity_detail"
-24-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:16:13-58
-25            android:parentActivityName="ar.com.dariojolo.misnotas.Activities.MainActivity"
-25-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:17:13-66
-26            android:theme="@style/AppTheme.NoActionBar" />
-26-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:18:13-56
-27        <activity
-27-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:19:9-27:20
-28            android:name="ar.com.dariojolo.misnotas.Activities.MainActivity"
-28-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:20:13-52
-29            android:label="@string/app_name" >
-29-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:21:13-45
-30            <intent-filter>
-30-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:22:13-26:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:23:17-69
-31-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:23:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:25:17-77
-33-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:25:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <service
-37-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
-38            android:name="androidx.room.MultiInstanceInvalidationService"
-38-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
-39            android:exported="false" />
-39-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
-40
-41        <provider
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-42-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-43            android:authorities="ar.com.dariojolo.misnotas.lifecycle-process"
-43-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-44            android:exported="false"
-44-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-45            android:multiprocess="true" />
-45-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-46    </application>
-47
-48</manifest>
+19        android:theme="@style/AppTheme" >
+19-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="ar.com.dariojolo.misnotas.ui.EditarNotaActivity" />
+20-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:9-68
+20-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:12:19-56
+21        <activity
+21-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:14:9-18:59
+22            android:name="ar.com.dariojolo.misnotas.ui.DetailActivity"
+22-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:15:13-46
+23            android:label="@string/title_activity_detail"
+23-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:16:13-58
+24            android:parentActivityName="ar.com.dariojolo.misnotas.ui.MainActivity"
+24-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:17:13-58
+25            android:theme="@style/AppTheme.NoActionBar" />
+25-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:18:13-56
+26        <activity
+26-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:19:9-27:20
+27            android:name="ar.com.dariojolo.misnotas.ui.MainActivity"
+27-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:20:13-44
+28            android:label="@string/app_name" >
+28-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:21:13-45
+29            <intent-filter>
+29-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:23:17-69
+30-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:25:17-77
+32-->/home/darioj/AndroidStudioProjects/MisNotasAndroid/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.2.3] /home/darioj/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+42            android:authorities="ar.com.dariojolo.misnotas.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/darioj/.gradle/caches/transforms-2/files-2.1/3c03e0805bdfd6180afbf0af0c9cd9a0/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+45    </application>
+46
+47</manifest>
