@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import java.util.ArrayList;
 
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
 import ar.com.dariojolo.misnotas.Adapters.MyAdapterFavs;
 import ar.com.dariojolo.misnotas.R;
 
@@ -37,7 +37,7 @@ public class FavoritasFragment extends Fragment {
 
         mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(numeroColumnas, StaggeredGridLayoutManager.VERTICAL));
 
-        myAdapter = new MyAdapterFavs(getContext(), getMyList());
+        myAdapter = new MyAdapterFavs(getMyList(),getContext() );
         mRecyclerView.setAdapter(myAdapter);
 
         return root;

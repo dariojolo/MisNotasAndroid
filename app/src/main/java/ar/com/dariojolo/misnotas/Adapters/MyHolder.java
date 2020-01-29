@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
 import ar.com.dariojolo.misnotas.R;
 

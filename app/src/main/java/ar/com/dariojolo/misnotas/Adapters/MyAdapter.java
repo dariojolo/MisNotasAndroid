@@ -1,10 +1,7 @@
 package ar.com.dariojolo.misnotas.Adapters;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,19 +9,15 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.io.ByteArrayOutputStream;
-import java.util.ArrayList;
 import java.util.List;
 
-import ar.com.dariojolo.misnotas.Activities.DetailActivity;
+import ar.com.dariojolo.misnotas.ui.DetailActivity;
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
-import ar.com.dariojolo.misnotas.NuevaNotaDialogViewModel;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
+import ar.com.dariojolo.misnotas.ui.NuevaNotaDialogViewModel;
 import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {

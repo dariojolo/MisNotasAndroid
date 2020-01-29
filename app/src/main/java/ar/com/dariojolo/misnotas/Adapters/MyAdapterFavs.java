@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import ar.com.dariojolo.misnotas.Listeners.ItemClickListener;
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
 import ar.com.dariojolo.misnotas.R;
 
 public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
@@ -20,7 +20,7 @@ public class MyAdapterFavs extends RecyclerView.Adapter<MyHolderFavs> {
         Context context;
         ArrayList<NotaEntity> listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
 
-        public MyAdapterFavs(Context context, ArrayList<NotaEntity> listado) {
+        public MyAdapterFavs(ArrayList<NotaEntity> listado, Context context ) {
             this.context = context;
             this.listado = listado;
         }

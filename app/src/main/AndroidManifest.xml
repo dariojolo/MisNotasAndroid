@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditarNotaActivity"></activity>
+        <activity android:name=".ui.EditarNotaActivity"></activity>
 
         <activity
-            android:name=".Activities.DetailActivity"
+            android:name=".ui.DetailActivity"
             android:label="@string/title_activity_detail"
-            android:parentActivityName=".Activities.MainActivity"
+            android:parentActivityName=".ui.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".ui.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

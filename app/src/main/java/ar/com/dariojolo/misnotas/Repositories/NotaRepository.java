@@ -7,9 +7,9 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-import ar.com.dariojolo.misnotas.DAOs.NotaDao;
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
-import ar.com.dariojolo.misnotas.NotaRoomDatabase;
+import ar.com.dariojolo.misnotas.db.dao.NotaDao;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
+import ar.com.dariojolo.misnotas.db.NotaRoomDatabase;
 
 public class NotaRepository {
     private NotaDao notaDao;

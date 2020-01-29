@@ -1,7 +1,6 @@
 package ar.com.dariojolo.misnotas.ui.home;
 
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -16,16 +15,15 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import ar.com.dariojolo.misnotas.Adapters.MyAdapter;
-import ar.com.dariojolo.misnotas.Entities.NotaEntity;
+import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
 
-import ar.com.dariojolo.misnotas.NuevaNotaDialogFragment;
-import ar.com.dariojolo.misnotas.NuevaNotaDialogViewModel;
+import ar.com.dariojolo.misnotas.ui.NuevaNotaDialogFragment;
+import ar.com.dariojolo.misnotas.ui.NuevaNotaDialogViewModel;
 import ar.com.dariojolo.misnotas.R;
 
 public class HomeFragment extends Fragment {
