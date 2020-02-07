@@ -23,11 +23,12 @@
     <EditText
         android:id="@+id/txtContenido"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
+        android:gravity="start"
         android:hint="Contenido de la nota"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTituloAlta" />
@@ -36,11 +37,12 @@
         android:id="@+id/radioGroupColor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnFav"
         app:layout_constraintTop_toBottomOf="@+id/txtContenido">
 
         <RadioButton
@@ -67,10 +69,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Favorita"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroupColor" />
+        app:layout_constraintTop_toBottomOf="@+id/txtContenido" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

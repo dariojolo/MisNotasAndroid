@@ -1,6 +1,7 @@
 package ar.com.dariojolo.misnotas.ui.home;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,6 +16,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +36,7 @@ public class HomeFragment extends Fragment {
     RecyclerView mRecyclerView;
     MyAdapter myAdapter;
     private NuevaNotaDialogViewModel nuevaNotaDialogViewModel;
+    FloatingActionButton fabAddNote;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -43,28 +48,37 @@ public class HomeFragment extends Fragment {
 
       //  mRecyclerView = root.findViewById(R.id.recyclerView_landscape);
 
-        mRecyclerView = (RecyclerView)root;
+        //mRecyclerView = (RecyclerView)root;
+        mRecyclerView = root.findViewById(R.id.recyclerView_portrait);
+        fabAddNote = root.findViewById(R.id.btnAddNote);
+        fabAddNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mostrarDialogoNuevaNota();
+            }
+        });
 
        // if (mRecyclerView.getId() == R.id.recyclerView_portrait){
             mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
        // }else{
-       //     DisplayMetrics displayMetrics = getContext().getResources().getDisplayMetrics();
-       //     float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
-       //     int numeroColumnas = (int) (dpWidth / 180 );
+          //  DisplayMetrics displayMetrics = getContext().getResources().getDisplayMetrics();
+          //  float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
+          //  int numeroColumnas = (int) (dpWidth / 180 );
 
-       //     mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(numeroColumnas, StaggeredGridLayoutManager.VERTICAL));
+          //  mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(numeroColumnas, StaggeredGridLayoutManager.VERTICAL));
         //}
 
         myAdapter = new MyAdapter(this.getMyList(), getActivity());
         mRecyclerView.setAdapter(myAdapter);
 
-        lanzerViewModel();
+        lanzarViewModel();
 
 
         return root;
     }
 
-    private void lanzerViewModel() {
+
+    private void lanzarViewModel() {
         nuevaNotaDialogViewModel = ViewModelProviders.of(getActivity()).get(NuevaNotaDialogViewModel.class);
         nuevaNotaDialogViewModel.getAllNotas().observe(getActivity(), new Observer<List<NotaEntity>>() {
             @Override
@@ -74,7 +88,7 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    @Override
+ /*   @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.options_menu_nota_fragment, menu);
     }
@@ -87,11 +101,11 @@ public class HomeFragment extends Fragment {
                 default:
                     return super.onOptionsItemSelected(item);
         }
-    }
+    } */
 
     private void mostrarDialogoNuevaNota() {
         FragmentManager fm = getActivity().getSupportFragmentManager();
-        NuevaNotaDialogFragment dialogNuevaNota = new NuevaNotaDialogFragment();
+         NuevaNotaDialogFragment dialogNuevaNota = new NuevaNotaDialogFragment();
         dialogNuevaNota.show(fm, "NuevaNotaDialogFragment");
     }
 

@@ -25,6 +25,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     Context context;
     List<NotaEntity>listado; //Lista donde se va a guardar la info para mostrar en el RecyclerView
     Boolean isFavorita;
+    String color;
     private NuevaNotaDialogViewModel viewModel;
 
     public MyAdapter(List<NotaEntity> listado, Context context) {
@@ -45,7 +46,32 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
         holder.mItem = listado.get(position);
         holder.mTitle.setText(listado.get(position).getTitle());
         holder.mDescription.setText(listado.get(position).getDescription());
-        holder.mImage.setImageResource(listado.get(position).getImg());
+        color = holder.mItem.getColor();
+
+
+       /* if (color.equalsIgnoreCase("azul")){
+            holder.card.setBackgroundColor(context.getResources().getColor(R.color.cardAzul));
+        }
+        if (color.equalsIgnoreCase("verde")){
+            holder.card.setBackgroundColor(context.getResources().getColor(R.color.cardVerde));
+        }
+        if (color.equalsIgnoreCase("rojo")){
+            holder.card.setBackgroundColor(context.getResources().getColor(R.color.cardRojo));
+        }*/
+        if (color.equalsIgnoreCase("azul")){
+            holder.mcolorBar.setBackgroundColor(context.getResources().getColor(R.color.cardAzul));
+        //    holder.mcolorBar2.setBackgroundColor(context.getResources().getColor(R.color.cardAzul));
+        }
+        if (color.equalsIgnoreCase("verde")){
+            holder.mcolorBar.setBackgroundColor(context.getResources().getColor(R.color.cardVerde));
+         //    holder.mcolorBar2.setBackgroundColor(context.getResources().getColor(R.color.cardVerde));
+        }
+        if (color.equalsIgnoreCase("rojo")){
+            holder.mcolorBar.setBackgroundColor(context.getResources().getColor(R.color.cardRojo));
+         //   holder.mcolorBar2.setBackgroundColor(context.getResources().getColor(R.color.cardRojo));
+        }
+
+    //    holder.mImage.setImageResource(listado.get(position).getImg());
         isFavorita = listado.get(position).isFavorita();
         holder.mfav.setOnClickListener(new View.OnClickListener() {
             @Override

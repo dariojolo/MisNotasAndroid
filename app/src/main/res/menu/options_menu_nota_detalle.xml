@@ -6,4 +6,9 @@
         android:icon="@drawable/ic_edit_black_24dp"
         android:title="@string/edit_nota"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add_delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="@string/delete_nota"
+        app:showAsAction="ifRoom" />
 </menu>

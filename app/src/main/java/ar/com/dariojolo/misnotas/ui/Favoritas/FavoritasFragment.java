@@ -8,20 +8,25 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import java.util.ArrayList;
+import java.util.List;
 
 import ar.com.dariojolo.misnotas.db.entity.NotaEntity;
 import ar.com.dariojolo.misnotas.Adapters.MyAdapterFavs;
 import ar.com.dariojolo.misnotas.R;
+import ar.com.dariojolo.misnotas.ui.NuevaNotaDialogViewModel;
 
 public class FavoritasFragment extends Fragment {
 
     private FavoritasViewModel favoritasViewModel;
     RecyclerView mRecyclerView;
     MyAdapterFavs myAdapter;
+
+    private NuevaNotaDialogViewModel nuevaNotaDialogViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -40,13 +45,23 @@ public class FavoritasFragment extends Fragment {
         myAdapter = new MyAdapterFavs(getMyList(),getContext() );
         mRecyclerView.setAdapter(myAdapter);
 
+        lanzarViewModel();
+
         return root;
+    }
+
+    private void lanzarViewModel() {
+        nuevaNotaDialogViewModel = ViewModelProviders.of(getActivity()).get(NuevaNotaDialogViewModel.class);
+        nuevaNotaDialogViewModel.getFavNotas().observe(getActivity(), new Observer<List<NotaEntity>>() {
+            @Override
+            public void onChanged(List<NotaEntity> notaEntities) {
+                myAdapter.setNuevasNotas(notaEntities);
+            }
+        });
     }
 
     private ArrayList<NotaEntity> getMyList(){
         ArrayList<NotaEntity> listado = new ArrayList<>();
-
-
         return listado;
     }
 }

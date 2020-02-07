@@ -650,13 +650,21 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color cardAzul
+color cardRojo
+color cardVerde
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
+color colorDivider
+color colorIcons
 color colorPrimary
 color colorPrimaryDark
+color colorPrimaryLight
+color colorPrimaryText
+color colorSecondaryText
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1075,6 +1083,7 @@ drawable design_snackbar_background
 drawable girl
 drawable hours
 drawable ic_dashboard_black_24dp
+drawable ic_delete_black_24dp
 drawable ic_edit_black_24dp
 drawable ic_facebook
 drawable ic_favorite_off
@@ -1148,6 +1157,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
+id action_add_delete
 id action_add_edit
 id action_add_nota
 id action_bar
@@ -1179,6 +1189,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAddNote
 id btnCancelarEditar
 id btnEditar
 id btnFav
@@ -1195,6 +1206,9 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id colorBar
+id colorBar2
+id colorBar3
 id container
 id content
 id contentPanel
@@ -1239,12 +1253,10 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageIv
 id imageView
 id imageView2
 id imageView3
 id imageView4
-id imagefav
 id info
 id invisible
 id italic
@@ -1348,7 +1360,6 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
-id switchFav
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1540,6 +1551,7 @@ string bottom_sheet_behavior
 string cancel
 string character_counter_content_description
 string character_counter_pattern
+string delete_nota
 string dialog_fire_missiles
 string edit_nota
 string fab_transformation_scrim_behavior
@@ -1562,8 +1574,11 @@ string settings
 string status_bar_notification_info_overflow
 string title_activity_detail
 string title_dashboard
+string title_favoritas
 string title_home
+string title_notas
 string title_notifications
+string title_settings
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
