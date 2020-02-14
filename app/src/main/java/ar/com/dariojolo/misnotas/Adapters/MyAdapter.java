@@ -37,7 +37,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     @NonNull
     @Override
     public MyHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_element,null); //Infla el elemento del recyclerview a cargar
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_element,parent, false); //Infla el elemento del recyclerview a cargar
         return new MyHolder(view);
     }
 
